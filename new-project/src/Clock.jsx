@@ -51,7 +51,8 @@ function reset(){
   return (
     <>
     <div className="bg-zinc-600 lg:w-1/2 md:w-2/3 sm:w-2/3 lg:ml-72 md:ml-32 sm:ml-28 mt-10 rounded shadow-sm shadow-black">
-        <h1 className="text-red-400 sm:pl-24 md:pl-36 md:ml-1 lg:pl-40 pt-14 pb-14 ml-16 inline-block font-mono font-semibold text-6xl lg:ml-6 ">
+      <h1 className="text-white pt-10 font-mono text-2xl lg:ml-56 md:ml-48 sm:ml-44">Simple Clock</h1>
+        <h1 className="text-red-400 sm:pl-24 md:pl-36 md:ml-1 lg:pl-40 pt-14 pb-14 ml-16 inline-block font-mono font-semibold text-6xl lg:ml-6 -mt-10 sm:ml-8">
           {hourse<10?"0"+hourse:hourse}:{minutes<10?"0"+minutes:minutes}:{seconds<10?"0"+seconds:seconds}
         </h1>
         <div className="flex justify-between lg:ml-40 md:ml-36 sm:ml-20  md:ml-32  text-xl -mt-10 pb-10">
